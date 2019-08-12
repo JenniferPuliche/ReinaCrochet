@@ -134,9 +134,29 @@ textarea{
 	margin:20px;
 	padding: 6px;
 	outline: none;
+	border:none;
+	background-color: #faf4ea;
+}
+
+textarea:focus, .form input:focus{
+	border: 1px solid black;
 }
 
 label{
 	margin-top: 14px;
 	font-size: 16px;
+}
+
+.ancla{
+	text-align: left;
+}
+
+i{
+	width: 30px;
+}
+
+footer{
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
 }
