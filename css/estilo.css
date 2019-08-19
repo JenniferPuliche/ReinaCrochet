@@ -147,12 +147,17 @@ label{
 	font-size: 16px;
 }
 
-.ancla{
-	text-align: left;
+.swiper-pagination-bullet-active{
+	background-color: black !important;
 }
 
-i{
-	width: 30px;
+.subir{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.fas{
+	color: black;
 }
 
 footer{
